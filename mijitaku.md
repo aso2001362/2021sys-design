@@ -1,4 +1,5 @@
 ```uml
-@start
-start
-:起きる;
+@startuml
+起きる->朝食を食べる
+@enduml
+```

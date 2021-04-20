@@ -9,6 +9,6 @@ if(眠い？)then(はい)
 else(いいえ)
 :着替える;
 endif
-end
+stop
 @enduml
 ```

@@ -6,7 +6,7 @@ start
 :歯を磨く;
 if(眠い？)then(はい)
 :二度寝する;
-else
+else(いいえ)
 :着替える;
 endif
 end

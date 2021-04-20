@@ -7,7 +7,7 @@ start
 if(眠い？)then(はい)
 :二度寝する;
 else
-:着替える;(いいえ)
+:着替える;then(いいえ)
 endif
 end
 @enduml

@@ -4,10 +4,10 @@ start
 :起きる;
 :朝食を食べる;
 :歯を磨く;
-if(眠い？)hten(true)
+if(眠い？)then(はい)
 :二度寝する;
 else
-:着替える;
+:着替える;(いいえ)
 endif
 end
 @enduml

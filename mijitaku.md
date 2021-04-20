@@ -1,5 +1,14 @@
 ```uml
 @startuml
-起きる->朝食を食べる
+start
+:起きる;
+:朝食を食べる;
+:歯を磨く;
+if(眠い？)hten(true)
+:二度寝する;
+else
+:着替える;
+endif
+end
 @enduml
 ```

@@ -2,6 +2,7 @@
 opt 未登録
 ユーザー-> webサーバー:ユーザー登録
 webサーバー ->DBサーバー:ユーザー登録
+DBサーバー ->DBサーバー:登録処理
 DBサーバー ->wabサーバー:登録結果
 
 alt 登録成功
@@ -11,8 +12,8 @@ alt 登録成功
  
   end
  end
- 
- @startujml
+
+@startuml
  ユーザー -> webサーバー:ログイン
  webサーバー ->DBサーバー:ログイン照会
  DBサーバー ->DBサーバー:ログイン処理
@@ -33,4 +34,4 @@ alt 登録成功
  end
  
  deactivate ユーザー
- 
+ @enduml

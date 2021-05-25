@@ -13,9 +13,7 @@ else 登録失敗
  
  end
 end
-@enduml
-```
-```uml
+
 @startuml
  ユーザー -> webサーバー : ログイン
  webサーバー -> DBサーバー : ログイン照会

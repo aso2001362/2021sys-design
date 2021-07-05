@@ -45,11 +45,21 @@ package "ECサイト" as target_system {
     }
     
     entity "購入テーブル" as purchase <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
-      + order_id[PK]
+      + order_id [PK]
       --
-      customer_id[FK]
+      customer_id [FK]
       purchase_date
       total_price
     }  
+    
+    entity "購入詳細テーブル" as purchase_detail<d_purchase_detail>     <<T,TRANSACTION_MARK_COLOR>> {
+    +order_id [PK]
+    detail_ [PK]
+    --
+    item_code[FK]
+    price
+    num
+    }
+    
 @enduml
 ```

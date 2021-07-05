@@ -1,4 +1,5 @@
 @startuml
+start
 
 entity "顧客マスタ" as customor <m_customors> <<M,MASTER_MARK_COLOR>>{
   + customor_code [PK]
@@ -11,5 +12,6 @@ entity "顧客マスタ" as customor <m_customors> <<M,MASTER_MARK_COLOR>>{
   del_flag
   reg_date
 }  
-  
+
+end  
   @enduml

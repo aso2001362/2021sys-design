@@ -79,11 +79,7 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
-@enduml
-```
-```startuml
-@startuml
-!include tables.pu
+
     ustomer |o-ri-o{ order 
     order ||-ri-|{ order_detail 
     order_detail }-do-|| items 

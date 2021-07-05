@@ -44,7 +44,7 @@ package "ECサイト" as target_system {
         reg_date
     }
     
-    entity "購入テーブル" as purchase <d_purchase> <<TRANSACTION_MARK_COLOR>> {
+    entity "購入テーブル" as purchase <d_purchase> <<T,TRANSACTION_MARK_COLOR>> {
       + order_id[PK]
       --
       customer_id[FK]

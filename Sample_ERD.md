@@ -1,4 +1,4 @@
-```
+```startuml
 @startuml
 
 /'
@@ -79,5 +79,8 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
+    
+    m_customer |oo{ d_purchase
+    
 @enduml
 ```

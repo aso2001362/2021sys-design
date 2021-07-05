@@ -50,5 +50,6 @@ package "ECサイト" as target_system {
       customer_id[FK]
       purchase_date
       total_price
+    }  
 @enduml
 ```

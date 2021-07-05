@@ -80,6 +80,8 @@ package "ECサイト" as target_system {
     reg_date
     }
 @enduml
+```
+```startuml
 @startuml
     m_customer |oo{ d_purchase
     

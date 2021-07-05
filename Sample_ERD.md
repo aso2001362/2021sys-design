@@ -79,7 +79,8 @@ package "ECサイト" as target_system {
     del_flag
     reg_date
     }
-    
+@enduml
+@startuml
     m_customer |oo{ d_purchase
     
 @enduml

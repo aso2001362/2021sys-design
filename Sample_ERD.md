@@ -68,7 +68,7 @@ package "ECサイト" as target_system {
     reg_date
     }
     
-    entity "商品マスタ" as item<m_item><<<M,MASTER_MARK_COLOR>> {
+    entity "商品マスタ" as items<m_items><<<M,MASTER_MARK_COLOR>> {
     +item_code [PK]
     --
     item_name
@@ -81,7 +81,7 @@ package "ECサイト" as target_system {
     }
 
     customer |o-ri-o{ purchase 
-    order ||-ri-|{ order_detail 
+    purchase ||-ri-|{ purchase_detail 
     order_detail }-do-|| items 
     items }o-le-|| category 
 @enduml
